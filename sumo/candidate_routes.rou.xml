@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Every possible movement through the junction (entry leg -> exit leg).
+     routeSampler picks how many vehicles use each so the totals match counts. -->
+<routes>
+    <route id="N_E" edges="N_in C_E"/>
+    <route id="N_S" edges="N_in C_S"/>
+    <route id="N_W" edges="N_in C_W"/>
+    <route id="E_N" edges="E_in C_N"/>
+    <route id="E_S" edges="E_in C_S"/>
+    <route id="E_W" edges="E_in C_W"/>
+    <route id="S_N" edges="S_in C_N"/>
+    <route id="S_E" edges="S_in C_E"/>
+    <route id="S_W" edges="S_in C_W"/>
+    <route id="W_N" edges="W_in C_N"/>
+    <route id="W_E" edges="W_in C_E"/>
+    <route id="W_S" edges="W_in C_S"/>
+</routes>

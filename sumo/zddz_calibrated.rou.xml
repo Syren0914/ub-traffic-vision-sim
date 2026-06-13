@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-06-13 18:30:38.278468 by Eclipse SUMO routeSampler.py v1.27.0
+<configuration>
+    <route-files value="candidate_routes.rou.xml"/>
+    <edgedata-files value="edgecounts.xml"/>
+    <output-file value="zddz_calibrated.rou.xml"/>
+    <begin value="0"/>
+    <end value="300"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+<!-- begin="0.0" end="300.0" -->
+    <vehicle id="0" depart="5.42">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="1" depart="13.08">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="2" depart="21.12">
+        <route edges="S_in C_W"/>
+    </vehicle>
+    <vehicle id="3" depart="22.60">
+        <route edges="N_in C_W"/>
+    </vehicle>
+    <vehicle id="4" depart="40.99">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="5" depart="52.49">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="6" depart="52.78">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="7" depart="53.65">
+        <route edges="S_in C_N"/>
+    </vehicle>
+    <vehicle id="8" depart="56.61">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="9" depart="57.27">
+        <route edges="S_in C_N"/>
+    </vehicle>
+    <vehicle id="10" depart="62.68">
+        <route edges="N_in C_E"/>
+    </vehicle>
+    <vehicle id="11" depart="62.72">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="12" depart="68.57">
+        <route edges="E_in C_W"/>
+    </vehicle>
+    <vehicle id="13" depart="69.06">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="14" depart="75.14">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="15" depart="76.25">
+        <route edges="S_in C_N"/>
+    </vehicle>
+    <vehicle id="16" depart="78.25">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="17" depart="80.54">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="18" depart="83.66">
+        <route edges="S_in C_E"/>
+    </vehicle>
+    <vehicle id="19" depart="83.87">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="20" depart="85.18">
+        <route edges="E_in C_W"/>
+    </vehicle>
+    <vehicle id="21" depart="88.59">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="22" depart="91.61">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="23" depart="91.71">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="24" depart="92.42">
+        <route edges="S_in C_E"/>
+    </vehicle>
+    <vehicle id="25" depart="96.77">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="26" depart="99.23">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="27" depart="105.02">
+        <route edges="N_in C_W"/>
+    </vehicle>
+    <vehicle id="28" depart="107.59">
+        <route edges="S_in C_W"/>
+    </vehicle>
+    <vehicle id="29" depart="109.94">
+        <route edges="E_in C_W"/>
+    </vehicle>
+    <vehicle id="30" depart="111.68">
+        <route edges="N_in C_W"/>
+    </vehicle>
+    <vehicle id="31" depart="111.81">
+        <route edges="E_in C_W"/>
+    </vehicle>
+    <vehicle id="32" depart="118.41">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="33" depart="119.27">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="34" depart="121.35">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="35" depart="130.32">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="36" depart="134.53">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="37" depart="140.98">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="38" depart="145.58">
+        <route edges="N_in C_W"/>
+    </vehicle>
+    <vehicle id="39" depart="145.68">
+        <route edges="S_in C_W"/>
+    </vehicle>
+    <vehicle id="40" depart="146.02">
+        <route edges="N_in C_W"/>
+    </vehicle>
+    <vehicle id="41" depart="148.17">
+        <route edges="S_in C_W"/>
+    </vehicle>
+    <vehicle id="42" depart="149.76">
+        <route edges="N_in C_E"/>
+    </vehicle>
+    <vehicle id="43" depart="152.64">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="44" depart="154.99">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="45" depart="155.33">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="46" depart="162.43">
+        <route edges="E_in C_N"/>
+    </vehicle>
+    <vehicle id="47" depart="162.76">
+        <route edges="E_in C_W"/>
+    </vehicle>
+    <vehicle id="48" depart="165.83">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="49" depart="165.85">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="50" depart="167.49">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="51" depart="171.60">
+        <route edges="E_in C_W"/>
+    </vehicle>
+    <vehicle id="52" depart="171.69">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="53" depart="174.21">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="54" depart="176.96">
+        <route edges="S_in C_N"/>
+    </vehicle>
+    <vehicle id="55" depart="190.90">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="56" depart="193.53">
+        <route edges="S_in C_W"/>
+    </vehicle>
+    <vehicle id="57" depart="200.68">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="58" depart="200.70">
+        <route edges="N_in C_W"/>
+    </vehicle>
+    <vehicle id="59" depart="201.34">
+        <route edges="N_in C_W"/>
+    </vehicle>
+    <vehicle id="60" depart="202.71">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="61" depart="208.74">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="62" depart="210.11">
+        <route edges="E_in C_W"/>
+    </vehicle>
+    <vehicle id="63" depart="212.67">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="64" depart="216.28">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="65" depart="220.56">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="66" depart="223.25">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="67" depart="224.32">
+        <route edges="S_in C_E"/>
+    </vehicle>
+    <vehicle id="68" depart="230.57">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="69" depart="235.60">
+        <route edges="E_in C_N"/>
+    </vehicle>
+    <vehicle id="70" depart="251.31">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="71" depart="253.26">
+        <route edges="N_in C_W"/>
+    </vehicle>
+    <vehicle id="72" depart="254.00">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="73" depart="254.60">
+        <route edges="E_in C_W"/>
+    </vehicle>
+    <vehicle id="74" depart="255.28">
+        <route edges="N_in C_W"/>
+    </vehicle>
+    <vehicle id="75" depart="256.90">
+        <route edges="S_in C_E"/>
+    </vehicle>
+    <vehicle id="76" depart="259.25">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="77" depart="264.79">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="78" depart="265.05">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="79" depart="266.33">
+        <route edges="N_in C_E"/>
+    </vehicle>
+    <vehicle id="80" depart="271.83">
+        <route edges="E_in C_W"/>
+    </vehicle>
+    <vehicle id="81" depart="279.01">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="82" depart="280.69">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="83" depart="282.04">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="84" depart="282.16">
+        <route edges="N_in C_S"/>
+    </vehicle>
+    <vehicle id="85" depart="285.92">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="86" depart="289.63">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="87" depart="292.10">
+        <route edges="E_in C_W"/>
+    </vehicle>
+    <vehicle id="88" depart="293.67">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="89" depart="294.10">
+        <route edges="E_in C_W"/>
+    </vehicle>
+    <vehicle id="90" depart="294.65">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="91" depart="298.34">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="92" depart="298.37">
+        <route edges="E_in C_S"/>
+    </vehicle>
+    <vehicle id="93" depart="298.88">
+        <route edges="N_in C_S"/>
+    </vehicle>
+</routes>

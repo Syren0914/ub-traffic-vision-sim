@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SMART light (actuated/adaptive) + same calibrated demand + same seed. -->
+<configuration>
+    <input>
+        <net-file value="zddz_act.net.xml"/>
+        <route-files value="zddz_calibrated.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="300"/>
+    </time>
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+    <random_number>
+        <seed value="42"/>
+    </random_number>
+</configuration>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Demand from MEASURED inflows (veh/hour), split by ESTIMATED turn ratios.
+     Measured inflows: N=697, E=529, S=204, W(SW)=0.
+     Turn splits are first-cut estimates (pending real turn-movement data)
+     chosen to roughly reproduce the measured outflows
+     (S_out~673, W_out~301, N_out~72, E_out~84). -->
+<routes>
+    <vType id="car" vClass="passenger" maxSpeed="13.9"/>
+
+    <!-- from NORTH (697/h): 70% through to S, 20% to W, 10% to E -->
+    <flow id="N_S" type="car" begin="0" end="600" vehsPerHour="488" departLane="free">
+        <route edges="N_in C_S"/></flow>
+    <flow id="N_W" type="car" begin="0" end="600" vehsPerHour="139" departLane="free">
+        <route edges="N_in C_W"/></flow>
+    <flow id="N_E" type="car" begin="0" end="600" vehsPerHour="70" departLane="free">
+        <route edges="N_in C_E"/></flow>
+
+    <!-- from EAST (529/h): 60% to W, 25% to S, 15% to N -->
+    <flow id="E_W" type="car" begin="0" end="600" vehsPerHour="317" departLane="free">
+        <route edges="E_in C_W"/></flow>
+    <flow id="E_S" type="car" begin="0" end="600" vehsPerHour="132" departLane="free">
+        <route edges="E_in C_S"/></flow>
+    <flow id="E_N" type="car" begin="0" end="600" vehsPerHour="79" departLane="free">
+        <route edges="E_in C_N"/></flow>
+
+    <!-- from SOUTH (204/h): 60% to N, 20% to E, 20% to W -->
+    <flow id="S_N" type="car" begin="0" end="600" vehsPerHour="122" departLane="free">
+        <route edges="S_in C_N"/></flow>
+    <flow id="S_E" type="car" begin="0" end="600" vehsPerHour="41" departLane="free">
+        <route edges="S_in C_E"/></flow>
+    <flow id="S_W" type="car" begin="0" end="600" vehsPerHour="41" departLane="free">
+        <route edges="S_in C_W"/></flow>
+</routes>

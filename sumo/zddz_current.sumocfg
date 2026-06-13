@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CURRENT light (fixed-time) + calibrated demand. Watch the queues build. -->
+<configuration>
+    <input>
+        <net-file value="zddz.net.xml"/>
+        <route-files value="zddz_calibrated.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="300"/>
+    </time>
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+    <random_number>
+        <seed value="42"/>
+    </random_number>
+</configuration>

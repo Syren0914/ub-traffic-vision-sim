@@ -1,0 +1,6 @@
+ultralytics>=8.4
+opencv-python>=4.10
+eclipse-sumo>=1.27
+sumolib>=1.27
+openpyxl>=3.1
+matplotlib>=3.8

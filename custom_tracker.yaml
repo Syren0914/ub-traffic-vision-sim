@@ -1,0 +1,8 @@
+# ByteTrack tuned to keep IDs alive through occlusion at a busy junction.
+tracker_type: bytetrack
+track_high_thresh: 0.20    # lower: accept weaker detections into tracks
+track_low_thresh: 0.10
+new_track_thresh: 0.25
+track_buffer: 90           # keep lost tracks ~13s (default 30) to re-link them
+match_thresh: 0.85
+fuse_score: True

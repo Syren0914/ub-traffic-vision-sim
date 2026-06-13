@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MEASURED O-D flows from turns.py (zone endpoints). -->
+<routes>
+    <vType id="car" vClass="passenger" maxSpeed="13.9"/>
+    <flow id="NORTH_EAST" type="car" begin="0" end="600" vehsPerHour="36" departLane="free"><route edges="N_in C_E"/></flow>
+    <flow id="NORTH_SOUTH" type="car" begin="0" end="600" vehsPerHour="445" departLane="free"><route edges="N_in C_S"/></flow>
+    <flow id="NORTH_SW" type="car" begin="0" end="600" vehsPerHour="96" departLane="free"><route edges="N_in C_W"/></flow>
+    <flow id="EAST_SOUTH" type="car" begin="0" end="600" vehsPerHour="216" departLane="free"><route edges="E_in C_S"/></flow>
+    <flow id="EAST_SW" type="car" begin="0" end="600" vehsPerHour="228" departLane="free"><route edges="E_in C_W"/></flow>
+    <flow id="SOUTH_NORTH" type="car" begin="0" end="600" vehsPerHour="1010" departLane="free"><route edges="S_in C_N"/></flow>
+    <flow id="SOUTH_SW" type="car" begin="0" end="600" vehsPerHour="96" departLane="free"><route edges="S_in C_W"/></flow>
+    <flow id="SW_EAST" type="car" begin="0" end="600" vehsPerHour="12" departLane="free"><route edges="W_in C_E"/></flow>
+</routes>

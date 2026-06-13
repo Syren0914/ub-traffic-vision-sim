@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Trusted line-crossing counts (nano@960) over the observed 300s window.
+     entered = vehicles that crossed onto that edge.
+     _in edges = entering the junction; C_ edges = leaving it. -->
+<data>
+    <interval begin="0" end="300" id="measured">
+        <edge id="N_in" entered="58"/>
+        <edge id="C_N"  entered="6"/>
+        <edge id="E_in" entered="44"/>
+        <edge id="C_E"  entered="7"/>
+        <edge id="S_in" entered="17"/>
+        <edge id="C_S"  entered="56"/>
+        <edge id="W_in" entered="0"/>
+        <edge id="C_W"  entered="25"/>
+    </interval>
+</data>

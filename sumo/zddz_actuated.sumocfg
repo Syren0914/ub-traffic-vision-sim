@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Same demand as zddz.sumocfg, but uses the actuated (adaptive) network.
+     Open this in sumo-gui to watch the smarter signal in action. -->
+<configuration>
+    <input>
+        <net-file value="zddz_act.net.xml"/>
+        <route-files value="zddz.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="600"/>
+    </time>
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+</configuration>
