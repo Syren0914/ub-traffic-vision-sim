@@ -4,9 +4,9 @@ Turn ordinary traffic-camera video into a **calibrated traffic simulation** — 
 
 I built this end-to-end while learning computer vision, using a notoriously congested intersection in Ulaanbaatar (Зүүн дөрвөн зам, "Four Roads") as the case study.
 
-![SUMO simulation of the junction](assets/demo.gif)
+![SUMO simulation: fixed vs adaptive signal](assets/demo.gif)
 
-> The calibrated SUMO model running — each dot is a simulated vehicle, coloured by speed (red = stopped, green = moving). The full pipeline: detect & track with YOLO11 → count throughput → calibrate demand from counts → simulate signal changes.
+> The SUMO model: the **same traffic** under today's fixed-time light (left) vs a smart adaptive light (right). Each dot is a vehicle coloured by speed (red = stopped, green = moving); the counter tracks total waiting. The pipeline behind it: detect & track with YOLO11 → count throughput → calibrate demand from counts → simulate signal changes.
 
 ## The finding
 
