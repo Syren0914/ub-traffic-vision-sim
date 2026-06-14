@@ -6,7 +6,7 @@ I built this end-to-end while learning computer vision, using a notoriously cong
 
 ![SUMO simulation: fixed vs adaptive signal](assets/demo.gif)
 
-> The SUMO model: the **same traffic** under today's fixed-time light (left) vs a smart adaptive light (right). Each dot is a vehicle coloured by speed (red = stopped, green = moving); the counter tracks total waiting. The pipeline behind it: detect & track with YOLO11 → count throughput → calibrate demand from counts → simulate signal changes.
+> The SUMO model: the **same traffic** under today's fixed-time light (left) vs a smart adaptive light (right). Each dot is a vehicle coloured by speed (red = stopped, green = moving); the bar under each side tracks total waiting. The pipeline behind it: detect & track with YOLO11 → count throughput → calibrate demand from counts → simulate signal changes.
 
 ## The finding
 
