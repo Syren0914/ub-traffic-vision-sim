@@ -43,3 +43,7 @@ sumo/tripinfo*.xml
 sumo/stats_*.xml
 sumo/frames/
 assets/_preview.png
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
